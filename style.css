@@ -1,0 +1,71 @@
+* {
+    color-scheme: light;
+}
+
+.bodyAll {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.corretorasTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.loginTextSubtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputText,
+.inputSenha {
+    padding: 10px;
+    border: none;
+    border-radius: 99px;
+    background-color: #e6ecf0;
+    font-size: 14px;
+    color: #000;
+}
+
+.inputSubmit {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 99px;
+    background-color: #1da1f2;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 2rem;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.inputSubmit:hover {
+    background-color: #0a6da7;
+    transition: background-color 0.6s;
+}
+
+.headerTitle {
+    margin-top: 5rem;
+}
+
+.userText,
+.senhaText {
+    margin-bottom: 4px;
+}
