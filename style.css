@@ -2,6 +2,22 @@
     color-scheme: light;
 }
 
+.imgLogo {
+    filter: invert();
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+}
+
+.divImgLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
 .bodyAll {
     display: grid;
     align-items: center;
@@ -58,10 +74,11 @@ form {
     cursor: pointer;
     margin-top: 2rem;
     width: 70%;
-    margin: 20px auto;
+    margin: 12px auto;
 }
 
-.inputSubmit:hover, .darkModeToggle:hover {
+.inputSubmit:hover,
+.darkModeToggle:hover {
     background-color: #0a6da7;
     transition: background-color 0.6s;
 }
@@ -80,15 +97,18 @@ form {
     color: #FFF;
 }
 
+.darkModeToggleContainer {
+    width: auto;
+    margin: 0 auto;
+}
+
 .darkModeToggle {
-    width: 18%;
-    top: 10px;
-    right: 10px;
+    width: 15%;
     padding: 10px;
     border: none;
     border-radius: 99px;
     background-color: #1da1f2;
-    color: #cfcfcf;
+    color: #fff;
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
@@ -96,7 +116,10 @@ form {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    padding-right: 30px;
+    padding-left: 30px;
 }
+
 
 .loginTextSubtitle {
     font-size: 24px;

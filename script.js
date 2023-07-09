@@ -27,11 +27,14 @@ $(document).ready(function() {
 document.addEventListener('DOMContentLoaded', function() {
     var darkModeToggle = document.getElementById('dark-mode');
     var body = document.body;
+    var imgLogo = document.querySelector('.imgLogo');
     function setButtonContent() {
         if (body.classList.contains('darkMode')) {
             darkModeToggle.textContent = '🌑';
+            imgLogo.style.filter = 'invert(1%)';
         } else {
             darkModeToggle.textContent = '☀️';
+            imgLogo.style.filter = 'invert(100%)';
         }
     }
     setButtonContent();
