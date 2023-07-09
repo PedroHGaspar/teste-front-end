@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
     $('#login-form').submit(function (event) {
         event.preventDefault();
 
@@ -21,5 +21,22 @@ $(document).ready(function () {
                 }
             }
         });
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    var darkModeToggle = document.getElementById('dark-mode');
+    var body = document.body;
+    function setButtonContent() {
+        if (body.classList.contains('darkMode')) {
+            darkModeToggle.textContent = '🌑';
+        } else {
+            darkModeToggle.textContent = '☀️';
+        }
+    }
+    setButtonContent();
+    darkModeToggle.addEventListener('click', function() {
+        body.classList.toggle('darkMode');
+        setButtonContent();
     });
 });
