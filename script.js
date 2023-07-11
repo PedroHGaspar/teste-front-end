@@ -8,7 +8,7 @@ $(document).ready(function () {
         var pass = $('#pass').val();
 
         $.ajax({
-            url: 'data.json', // Altere para o caminho correto do arquivo JSON
+            url: 'data.json',
             method: 'GET',
             dataType: 'json',
             success: function (response) {
@@ -82,7 +82,7 @@ $(document).ready(function () {
                 status: $('#edit-status').val()
             };
             $.ajax({
-                url: 'data.json', // Altere para o caminho correto do arquivo JSON
+                url: 'data.json',
                 method: 'PUT',
                 data: { id: itemId, data: updatedData },
                 success: function () {
@@ -103,9 +103,8 @@ $(document).ready(function () {
         if (token !== '') {
             var item = $(this).data('item');
             if (confirm('Deseja realmente excluir o item?')) {
-                // Simule uma requisição para excluir o item
                 $.ajax({
-                    url: 'data.json', // Altere para o caminho correto do arquivo JSON
+                    url: 'data.json',
                     method: 'DELETE',
                     data: { id: item.id },
                     success: function () {
