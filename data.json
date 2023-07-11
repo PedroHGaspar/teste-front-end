@@ -1,0 +1,100 @@
+{
+    "TYPE": "SUCCESS",
+    "DADOS": {
+      "QTD": 12,
+      "HEADER": {
+        "id": "ID",
+        "nome": "Nome",
+        "nome_fantasia": "Nome Fantasia",
+        "cnpj": "CNPJ",
+        "status": "Status"
+      },
+      "VALORES": [
+        {
+          "id": 1,
+          "nome": "Primeiro Nome",
+          "nome_fantasia": "Primeiro",
+          "cnpj": "00.000.000/0000-00",
+          "status": "ativo"
+        },
+        {
+          "id": 2,
+          "nome": "Segundo Nome",
+          "nome_fantasia": "Segundo",
+          "cnpj": "20.000.000/0000-00",
+          "status": "inativo"
+        },
+        {
+          "id": 3,
+          "nome": "Terceiro Nome",
+          "nome_fantasia": "Terceiro",
+          "cnpj": "30.000.000/0000-00",
+          "status": "ativo"
+        },
+        {
+          "id": 4,
+          "nome": "Quarto Nome",
+          "nome_fantasia": "Quarto",
+          "cnpj": "40.000.000/0000-00",
+          "status": "inativo"
+        },
+        {
+          "id": 5,
+          "nome": "Quinto Nome",
+          "nome_fantasia": "Quinto",
+          "cnpj": "50.000.000/0000-00",
+          "status": "inativo"
+        },
+        {
+          "id": 6,
+          "nome": "Sexto Nome",
+          "nome_fantasia": "Sexto",
+          "cnpj": "60.000.000/0000-00",
+          "status": "ativo"
+        },
+        {
+          "id": 7,
+          "nome": "Sétimo Nome",
+          "nome_fantasia": "Sétimo",
+          "cnpj": "70.000.000/0000-00",
+          "status": "inativo"
+        },
+        {
+          "id": 8,
+          "nome": "Oitavo Nome",
+          "nome_fantasia": "Oitavo",
+          "cnpj": "80.000.000/0000-00",
+          "status": "inativo"
+        },
+        {
+          "id": 9,
+          "nome": "Nono Nome",
+          "nome_fantasia": "Nono",
+          "cnpj": "90.000.000/0000-00",
+          "status": "ativo"
+        },
+        {
+          "id": 10,
+          "nome": "Décimo Nome",
+          "nome_fantasia": "Décimo",
+          "cnpj": "00.100.000/0000-00",
+          "status": "inativo"
+        },
+        {
+          "id": 11,
+          "nome": "Décimo Primeiro Nome",
+          "nome_fantasia": "Décimo Primeiro",
+          "cnpj": "00.110.000/0000-00",
+          "status": "ativo"
+        },
+        {
+          "id": 12,
+          "nome": "Décimo Segundo Nome",
+          "nome_fantasia": "Décimo Segundo",
+          "cnpj": "00.120.000/0000-00",
+          "status": "inativo"
+        }
+      ]
+    }
+  }
+  

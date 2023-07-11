@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="script.js"></script>
+</head>
+
 <body class="bodyAll">
+    <div id="blur-background" style="display: none;"></div>
     <div class="divImgLogo">
         <img src="./SOMMALOGO.png" class="imgLogo">
     </div>
@@ -26,13 +27,48 @@
         </div>
     </section>
     <p id="token-message"></p>
-    <div class="darkModeToggleContainer">
+    <!-- <div class="darkModeToggleContainer">
         <p id="dark-mode" class="darkModeToggle"></p>
+    </div> -->
+
+    <div id="table-container" style="display: none;">
+        <table id="item-table">
+            <thead>
+                <tr class="tableInfos">
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Nome Fantasia</th>
+                    <th>CNPJ</th>
+                    <th>Status</th>
+                    <th class="acoesButton">Ações</th>
+                </tr>
+            </thead>
+            <tbody id="item-table-body"></tbody>
+        </table>
     </div>
 
-    <!-- Lista de Itens -->
-    <ul id="list-container"></ul>
+    <div id="blur-background" style="display: none;"></div>
+    <div id="edit-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close">❌</span>
+            <h2>Editar Item</h2>
+            <form id="edit-form">
+                <input type="hidden" id="edit-id" class="inputModal">
+                <label for="edit-nome" class="labelEdit">Nome:</label>
+                <input type="text" id="edit-nome" class="inputModal">
+                <label for="edit-nome-fantasia" class="labelEdit">Nome Fantasia:</label>
+                <input type="text" id="edit-nome-fantasia" class="inputModal">
+                <label for="edit-cnpj" class="labelEdit">CNPJ:</label>
+                <input type="text" id="edit-cnpj" class="inputModal">
+                <label for="edit-status" class="labelEdit">Status:</label>
+                <input type="text" id="edit-status" class="inputModal">
+                <button type="button" id="update-button" class="buttonEdit">Atualizar</button>
+            </form>
+        </div>
+    </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
